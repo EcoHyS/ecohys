@@ -1,3 +1,7 @@
+
+
+
 example_function <- function(x) {
-  x^2
+  a <- 5
+  x^2 * a
 }

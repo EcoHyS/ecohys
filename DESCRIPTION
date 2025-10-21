@@ -1,12 +1,16 @@
 Package: ecohys
-Title: What the Package Does (One Line, Title Case)
+Title: HyS Snowpack Model
 Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Implementation of a one layer physically based model for mass
+    balance dynamics of a seasonal snowpack. It simulates the snowpack's
+    composition over time (hourly), including snow depth, density, SWE,
+    liquid water content, and refreezing. A hybrid model which combines a
+    temperature-index approach (HyS 1.0; ref?) with a physically based
+    energy-budget approach (Kondo et al., 1990). 
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
