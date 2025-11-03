@@ -35,6 +35,13 @@ pak::pak("EcoHyS/ecohys")
 
 
 
+## Citation
+
+If you use this package in your research, please cite it as:
+
+  Norouzi S, Coia V, Beridze S, De Michele C (2025). _ecohys: HyS Snowpack
+  Model_. R package version 0.0.0.9000. https://github.com/ecohys/ecohys.
+
 ## Code of Conduct
 
 Please note that the ecohys project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
