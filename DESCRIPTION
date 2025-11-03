@@ -1,9 +1,30 @@
 Package: ecohys
 Title: HyS Snowpack Model
 Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+Authors@R: c(
+      person(
+        "Sepehr", "Norouzi", 
+        email = "sepehr.norouzi@polimi.it",
+        role = "aut"
+      ),
+      person(
+        "Vincenzo", "Coia",
+        email = "vincenzo.coia@gmail.com",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0002-2930-0723")
+      ),
+      person(
+        "Sopio", "Beridze",
+        email = "sopio.beridze@polimi.it",
+        role = "aut"
+      ),
+      person(
+        "Carlo", "De Michele",
+        email = "carlo.demichele@polimi.it",
+        role = "aut",
+        comment = c(ORCID = "0000-0002-7098-4725")
+      )
+    )
 Description: Implementation of a one layer physically based model for mass
     balance dynamics of a seasonal snowpack. It simulates the snowpack's
     composition over time (hourly), including snow depth, density, SWE,
@@ -13,4 +34,4 @@ Description: Implementation of a one layer physically based model for mass
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
